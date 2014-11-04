@@ -1,0 +1,5 @@
+__pycache__
+
+# Setuptools stuff
+/postlang.egg-info
+/setuptools-*
