@@ -30,11 +30,14 @@ setuptools.setup(
     ],
 
     packages=[
-        'postlang'
+        'postlang',
+        'postlang.tests',
     ],
     zip_safe=False,
 
-    entry_points = {
+    test_suite="postlang.tests.make_suite",
+
+    entry_points={
         'console_scripts': [
             'post = postlang.cli:main',
         ],
